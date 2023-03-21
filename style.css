@@ -1,0 +1,309 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tajawal:wght@200;300;400;500&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: sans-serif;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.left {
+  flex-basis: 20%;
+
+  height: 100vh;
+  position: sticky;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  border-right: 1px solid rgb(223, 219, 219);
+}
+nav {
+  padding: 30px 10px 0 20px;
+}
+.middle {
+  flex-basis: 55%;
+  border-right: 1px solid rgb(223, 219, 219);
+  border-left: 1px solid rgb(223, 219, 219);
+  padding: 50px 30px 0;
+}
+.right {
+  flex-basis: 25%;
+  position: sticky;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  height: 100vh;
+  padding: 50px 10px 0;
+}
+.logo-img {
+  display: inline-block;
+  width: 110px;
+  margin-bottom: 20px;
+}
+
+.profile {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin-right: 18px;
+}
+
+nav .main-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.main-links a {
+  display: inline-block;
+  margin-bottom: 10px;
+  font-size: 15px;
+  text-decoration: none;
+  color: #2a2a2a;
+  font-weight: lighter;
+  padding: 10px;
+  letter-spacing: 1px;
+}
+.main-links a:hover {
+  background-color: #fafafa;
+  border-radius: 30px;
+}
+.main-links a i {
+  font-size: 24px;
+  display: inline-block;
+  margin-right: 18px;
+}
+a.focus {
+  color: #000;
+  font-weight: 700;
+}
+.middle-first {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: nowrap;
+  overflow: hidden;
+}
+.middle-first .statue {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.middle-first .statue img {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  border: 2px solid rgb(233, 53, 53);
+  padding: 2px;
+  display: inline-block;
+  margin: auto;
+}
+.middle-first .statue h6 {
+  letter-spacing: 1px;
+  font-size: 10px;
+  color: #302d2d;
+  margin: 5px auto;
+}
+.middle-second .card .card-first .info img {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  border: 2px solid rgb(233, 53, 53);
+  padding: 2px;
+  display: inline-block;
+  margin-right: 10px;
+}
+.card-first {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.card-first .info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-first .info .title h3 {
+  font-size: 15px;
+  margin-bottom: 7px;
+  letter-spacing: 1px;
+  color: #333;
+}
+.card-first .info .title h3 span {
+  display: inline-block;
+  margin-left: 7px;
+  color: #817b7b;
+}
+.card-first .info .title p {
+  letter-spacing: 1px;
+  color: #524f4f;
+}
+.middle-second .card {
+  width: 80%;
+  overflow: hidden;
+  padding: 20px;
+  margin-bottom: 15px;
+}
+.middle-second .card .card-second {
+  width: 450px;
+  height: 550px;
+
+  overflow: hidden;
+  margin: auto;
+}
+.middle-second .card .card-second video {
+  width: 100%;
+}
+.middle-second {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.middle-second .card .card-third .icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 450px;
+  margin: 10px auto;
+
+  cursor: pointer;
+}
+.middle-second .card .card-third .icon i {
+  font-size: 25px;
+}
+.middle-second .card .card-third .icon .left-icon i {
+  display: inline-block;
+  margin-right: 10px;
+}
+.middle-second .card .card-third .info {
+  width: 450px;
+  margin: auto;
+}
+.middle-second .card .card-third .info h5 {
+  font-size: 15px;
+  margin-bottom: 7px;
+}
+.middle-second .card .card-third .info p {
+  line-height: 1.1em;
+  font-size: 15px;
+  color: #333;
+}
+.middle-second .card .card-third .info p.view {
+  margin-top: 7px;
+  color: #9e9898;
+}
+.right .right-first {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 27px;
+}
+.right .right-first .info img {
+  display: inline-block;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.right .right-first .info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.right .right-first .info .title h5 {
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+.right .right-first .info .title p {
+  color: #504e4e;
+}
+.right .right-first a {
+  text-decoration: none;
+  font-size: 15px;
+  color: rgb(10, 173, 238);
+}
+
+.right .right-second {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+.right .right-second a {
+  text-decoration: none;
+  font-size: 15px;
+  color: #000;
+}
+.right .right-third {
+  margin-top: 30px;
+}
+.right .right-third .info img {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.right .right-third .follow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 17px;
+}
+.right .right-third .follow .info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.right .right-third .follow .info h5 {
+  font-size: 14px;
+  margin-bottom: 5px;
+  font-weight: 600;
+  color: #3f3232;
+}
+.right .right-third .follow .info p {
+  color: #504e4e;
+  font-size: 13px;
+}
+.right .right-third .follow a {
+  text-decoration: none;
+  font-size: 13px;
+  color: rgb(10, 173, 238);
+}
+.right .right-forth .info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+}
+.right .right-forth {
+  text-align: center;
+}
+.right .right-forth img {
+  display: inline-block;
+  width: 300px;
+  height: 100px;
+  text-align: center;
+  border-radius: 15px;
+}
+.right .right-forth .info a {
+  text-decoration: none;
+  font-size: 13px;
+  color: rgb(68, 13, 170);
+}
+.right .right-forth .info h5 {
+  font-size: 15px;
+  letter-spacing: 1px;
+  color: #333;
+}
